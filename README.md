@@ -28,47 +28,49 @@
 <br />
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="C:\\Users\\gizze\\PycharmProjects\\Instagram-Profile-Analysis\\images\\logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Instagram Profil Analizi</h3>
+  <h3 align="center">Best-README-Template</h3>
 
   <p align="center">
-    Image Processing ve NLP ile Instagram Profil Analizi
+    An awesome README template to jumpstart your projects!
     <br />
-    <a href="https://github.com/gizemsutcu/InstagramProfileAnalysisV2"><strong>Kaynak kod için »</strong></a>
+    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/gizemsutcu/InstagramProfileAnalysisV2">Demoyu Görüntüle</a>
+    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
     ·
-    <a href="https://github.com/gizemsutcu/InstagramProfileAnalysisV2/issues">Hata Bildir</a>
+    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
     ·
-    <a href="https://github.com/gizemsutcu/InstagramProfileAnalysisV2/issues">Özellik İste</a>
+    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
   </p>
+</p>
+
 
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
-  <summary>İÇİNDEKİLER</summary>
+  <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">Proje Hakkında</a>
+      <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Başlarken</a>
+      <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Koşullar</a></li>
-        <li><a href="#installation">Kurulum</a></li>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Kullanım</a></li>
-    <li><a href="#roadmap">Yol Haritası</a></li>
-    <li><a href="#contributing">Katkı</a></li>
-    <li><a href="#license">Lisans</a></li>
-    <li><a href="#contact">İletişim</a></li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
@@ -76,106 +78,64 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## Proje Hakkında
+## About The Project
 
-Instagram gönderilerinin, yorum içeriği ve yorumu yapan profiller olarak ayrı kategorilerde ele alınıp Image Processing ve NLP teknolojileri 
-yardımı ile analizi yapılmıştır. Bu analizde öncelikli hedef yorum yapan hesabın gerçek ve sahte olmasının ayırt edilmesidir. 
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Analizin ikinci aşamasında ana ayrım olarak üretici ve diğer kullanıcılar olarak sınıflandırılıp alt başlıklar ile hesap türleri çeşitlendirilmiştir. Buradaki 
-hedefimiz analizin daha spesifik istekler doğrultusunda kullanılabilmesidir. Yorumlar ise ayrı olarak ele alınıp ve sınıflandırılmıştır.
+There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+
+Here's why:
+* Your time should be focused on creating something amazing. A project that solves a problem and helps others
+* You shouldn't be doing the same tasks over and over like creating a README from scratch
+* You should element DRY principles to the rest of your life :smile:
+
+Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template!
+
+A list of commonly used resources that I find helpful are listed in the acknowledgements.
 
 ### Built With
 
-Bu bölüm, projede kullanılan tüm ana framework ve modelleri listelemektedir.
+This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+* [Bootstrap](https://getbootstrap.com)
+* [JQuery](https://jquery.com)
+* [Laravel](https://laravel.com)
 
-* [instaloader(4.5.5)](https://instaloader.github.io/)
-* [chromedriver89](https://chromedriver.chromium.org/downloads)
-* [yolo-tiny.h5](https://github.com/OlafenwaMoses/ImageAI/releases/download/1.0/yolo-tiny.h5)
-* [resnet50_coco_best_v2.1.0.h5](https://github.com/OlafenwaMoses/ImageAI/releases/download/1.0/resnet50_coco_best_v2.0.1.h5)
 
 
 <!-- GETTING STARTED -->
-## Başlarken
+## Getting Started
 
-İlk aşama için DataScrapper ile veriler çekilip database oluşturulmalıdır.
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
 
-Oluşan database den veriler çekilerek datasetler elde edilir. Bu işlem Extract-Load da gerçekleşir.
+### Prerequisites
 
-Veriler ilk olarak Extract-Load da ön hazırlama aşamasından geçerek Image Process ve NLP teknolojileri ile hazırlanır.
+This is an example of how to list things you need to use the software and how to install them.
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
-Sonraki aşama olarak veriler etiketlenir ve Machine Learning algoritmalarına verilir.
+### Installation
 
-### Koşullar
+1. Get a free API Key at [https://example.com](https://example.com)
+2. Clone the repo
+   ```sh
+   git clone https://github.com/your_username_/Project-Name.git
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+4. Enter your API in `config.js`
+   ```JS
+   const API_KEY = 'ENTER YOUR API';
+   ```
 
-Bu, yazılımı kullanmak için ihtiyaç duyduğunuz şeyleri nasıl listeleye
-
-www.markdownguide.org
-Basic Syntax | Markdown Guide
-The Markdown elements outlined in John Gruber's design document.
-ceğinize ve bunları nasıl kuracağınıza dair bir örnektir.
-* pandas
-  
-sh
-  pip install pandas
-
-### Kurulum
-
-1. Clone the repo
-   
-sh
-   git clone https://github.com/gizemsutcu/InstagramProfileAnalysisV2.git
-2. Install imageAI packages
-   
-sh
-   pip install imageAI
-3. Install imagehash packages
-   
-sh
-   pip install imagehash
-4. Install PIL packages
-   
-sh
-   pip install PIL
-5. Install keras packages
-   
-sh
-   pip install keras
-6. Install opencv-python packages
-   
-sh
-   pip install opencv-python
-7. Install tensorflow packages
-   
-sh
-   pip install tensorflow
-8. Install pillow packages
-   
-sh
-   pip install pillow
-9. Install pyspark packages
-   
-sh
-   pip install pyspark
-10. Install sparknlp packages
-   
-sh
-   pip install spark-nlp
-11. Install trunklucator packages
-   
-sh
-   pip install trunklucator
-12. Install pillow packages
-   
-sh
-   pip install pillow
-13. Install selenium packages
-   
-sh
-   pip install selenium
 
 
 <!-- USAGE EXAMPLES -->
-## Kullanım
+## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
@@ -184,16 +144,16 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 
 <!-- ROADMAP -->
-## Yol Haritası
+## Roadmap
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
 
 
 
 <!-- CONTRIBUTING -->
-## Katkı
+## Contributing
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are greatly appreciated.
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
@@ -204,14 +164,14 @@ Contributions are what make the open source community such an amazing place to b
 
 
 <!-- LICENSE -->
-## Lisans
+## License
 
-Distributed under the MIT License. See LICENSE for more information.
+Distributed under the MIT License. See `LICENSE` for more information.
 
 
 
 <!-- CONTACT -->
-## İletişim
+## Contact
 
 Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
 
@@ -249,10 +209,6 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 [issues-url]: https://github.com/othneildrew/Best-README-Template/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo
-othneildrew/Best-README-Template
-An awesome README template to jumpstart your projects! - othneildrew/Best-README-Template
-[Photo]
-=linkedin&colorB=555
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png

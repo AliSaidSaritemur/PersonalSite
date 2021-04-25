@@ -28,7 +28,7 @@
   <p align="center">
    Sakarya Üniversitesi- Web Teknolojileri dersinin proje ödevidir. CV ve kişinin memleketi hakkında bilgi içeren bir web sitesinden oluşmaktadır
     <br />
-    <a href="https://github.com/AliSaidSaritemur/PersonalSite"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/AliSaidSaritemur/PersonalSite"><strong>Dokümanı incele »</strong></a>
     <br />
     <br />
     <a href="https://github.com/AliSaidSaritemur/PersonalSite">Demoyu Görüntüle</a>
@@ -51,7 +51,7 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li><a href="#usage">İçerdikleri</a></li>
+    <li><a href="#kullanım">İçerdikleri</a></li>
     <li>
       <a href="#getting-started">Başlarken</a>
       <ul>

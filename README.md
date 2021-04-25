@@ -20,7 +20,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/AliSaidSaritemur/PersonalSite">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/Download.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Kişisel Websitesi</h3>
@@ -63,7 +63,7 @@
     <li><a href="#contributing">Katkı</a></li>
     <li><a href="#license">Lisans</a></li>
     <li><a href="#contact">İletişim</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
+    <li><a href="#acknowledgements">Teşekkür</a></li>
   </ol>
 </details>
 
@@ -186,7 +186,7 @@ MIT Lisansı altında dağıtılmaktadır. Daha fazla bilgi için "LİSANS" böl
 <!-- CONTACT -->
 ## İletişim
 
-Your Name - [@your_twitter](https://twitter.com/alisaidsartemur) - email@example.com
+Kişi - [@alisaidsaritemur](https://twitter.com/alisaidsartemur) - alisaidsaritemur@gmail.com
 
 Proje Linki: [https://github.com/AliSaidSaritemur/PersonalSite](https://github.com/AliSaidSaritemur/PersonalSite)
 

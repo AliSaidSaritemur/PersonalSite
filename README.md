@@ -87,6 +87,8 @@ Elbette ihtiyaçlarınız farklı olabileceğinden hiçbir şablon tüm projeler
 
 Yararlı bulduğum yaygın olarak kullanılan kaynakların bir listesi teşekkürlerde listelenmiştir.
 
+
+
 ### Built With
 
 Bu bölüm, projede kullanılan tüm ana framework ve teknolojileri listelemektedir.
@@ -100,14 +102,18 @@ Bu bölüm, projede kullanılan tüm ana framework ve teknolojileri listelemekte
 * [Leaflet](https://leaflet.com)
 
 
+
 ## İçerdikleri
 
 Bu projede özgeçmiş bilgileri Ali Said Sarıtemur'a aittir. Seçilen şehir ise Adıyaman olmakla birlikte şehre ait kültürel miras niteliğindeki önemli bir eser olarak Nemrut Dağı seçilmiştir. Login olduktan sonra kültürel miras ve ilgi alanı sayfası görüntüleneilmektedir. İletişim sayfasında İstanbul lokasyonu görülmektedir bu da Leaflet API'si ile sağlanmıştır.
+
+
 
 <!-- GETTING STARTED -->
 ## Başlarken
 
 Ide olarak Visual Studio kullanılmıştır. Futbol ile ilgili veriler için API-FOOTBALL ve Bootstrap içeren responsive bir yapı kullanılmıştır. Axios kullanılmıştır.
+
 
 
 ### Koşullar

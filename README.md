@@ -1,11 +1,3 @@
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -27,23 +19,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/AliSaidSaritemur/PersonalSite">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Kişisel Websitesi</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+   Sakarya Üniversitesi- Web Teknolojileri dersinin proje ödevidir. CV ve kişinin memleketi hakkında bilgi içeren bir web sitesinden oluşmaktadır
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/AliSaidSaritemur/PersonalSite"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://github.com/AliSaidSaritemur/PersonalSite">Demoyu Görüntüle</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/AliSaidSaritemur/PersonalSite">Hata Bildir</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/AliSaidSaritemur/PersonalSite">Özellik İste</a>
   </p>
 </p>
 
@@ -51,26 +43,26 @@
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
-  <summary>Table of Contents</summary>
+  <summary>İÇİNDEKİLER</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#about-the-project">Proje Hakkında</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
+    <li><a href="#usage">İçerdikleri</a></li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#getting-started">Başlarken</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#prerequisites">Koşullar</a></li>
+        <li><a href="#installation">Kurulum</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#usage">Kullanım</a></li>
+    <li><a href="#contributing">Katkı</a></li>
+    <li><a href="#license">Lisans</a></li>
+    <li><a href="#contact">İletişim</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
@@ -78,119 +70,133 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Proje Hakkında
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+Projede oluşturulan websitesinde kullanıcıları ilk olarak hakkında sayfası karşılar. Bu kısımda site sahibi hakkında bilgiler bulunur. Bu bilgileri hobileri, fobileri, katıldığı etkinlikler, siteyi neden açtığı,hayalleri gibi bilgiler karşılar. 
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+Diğer sayfalardandan bahsedilecek olursa
+ * Eğitim bilgileri, iş geçmişi, bildiği diller ve daha birçok bilgiyi kapsana özgeçmiş sayfasından
+ * Bir şehrin nufusu, turistik yerleri, fotoğrafları, nelerinin meşhur olduğu şehrim sayfasından
+ * Şehre ait kültürel miras niteliğindeki önemli bir eseri tanıtan mirasımız sayfasından
+ * Site sahibinin ilgi alanı olan futbolla ilgili gerçek zamanlı veri sunan ilgi alanlarım sayfasından
+ * Diğer sayfalardan bir kısmını görmek için giriş yapılması gereken login sayfasından
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
+ve iletişim sayfasından bahsedilebilir.
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template!
+Elbette ihtiyaçlarınız farklı olabileceğinden hiçbir şablon tüm projelere hizmet etmeyecektir. Bu yüzden yakın gelecekte daha fazlasını ekleyeceğim. Bu depoyu fork ve bir pull talebi oluşturarak veya bir sorunu açarak da değişiklik önerebilirsiniz. Bu şablonun genişletilmesine katkıda bulunan herkese teşekkürler!
 
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+Yararlı bulduğum yaygın olarak kullanılan kaynakların bir listesi teşekkürlerde listelenmiştir.
 
 ### Built With
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+Bu bölüm, projede kullanılan tüm ana framework ve teknolojileri listelemektedir.
+
 * [Bootstrap](https://getbootstrap.com)
 * [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
+* [JavaScript](https://javascript.com/)
+* [HTML](https://html.com/)
+* [CSS](https://css.com)
+* [API-FOOTBALL](https://football-api.com/)
+* [Leaflet](https://leaflet.com)
 
 
+## İçerdikleri
+
+Bu projede özgeçmiş bilgileri Ali Said Sarıtemur'a aittir. Seçilen şehir ise Adıyaman olmakla birlikte şehre ait kültürel miras niteliğindeki önemli bir eser olarak Nemrut Dağı seçilmiştir. Login olduktan sonra kültürel miras ve ilgi alanı sayfası görüntüleneilmektedir. İletişim sayfasında İstanbul lokasyonu görülmektedir bu da Leaflet API'si ile sağlanmıştır.
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Başlarken
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Ide olarak Visual Studio kullanılmıştır. Futbol ile ilgili veriler için API-FOOTBALL ve Bootstrap içeren responsive bir yapı kullanılmıştır. Axios kullanılmıştır.
 
-### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+### Koşullar
+
+Bu, yazılımı kullanmak için ihtiyaç duyduğunuz şeyleri nasıl listeleyeceğinize ve bunları nasıl kuracağınıza dair bir örnektir.
+
 * npm
   ```sh
   npm install npm@latest -g
   ```
 
-### Installation
+### Kurulum
+1. Real time fotbol verileri için Ücretsiz api->  [https://rapidapi.com/api-sports/api/api-football/tutorials](https://rapidapi.com/api-sports/api/api-football/tutorials)
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+2. Etkileşimli haritalar için ücretsiz api->  [https://leafletjs.com/](https://leafletjs.com/)
+
+3. Repoyu klonlama
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/AliSaidSaritemur/PersonalSite
    ```
-3. Install NPM packages
+
+3. NPM paketlerini install etme
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
-   ```JS
-   const API_KEY = 'ENTER YOUR API';
+
+4. Axios paketlerini install etme
+   ```sh
+   npm install axios
    ```
+
+3. Leaflet paketlerini install etme
+   ```sh
+   npm install leaflet
+   ```
+
+4. Bootstrap paketlerini install etme
+   ```sh
+   npm install bootstrap
+   ```
+
+5. Font-awesome paketlerini install etme
+   ```sh
+   npm install font-awesome
+   ```
+5. Ücretsiz hosting hizmeti veren site için ->  [https://tr.000webhost.com/](https://tr.000webhost.com/)
+
 
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Kullanım
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
-
+Projenin nasıl kullanılabileceğine ilişkin yararlı örnekleri göstermek için bu alan proje ilerledikçe kullanılacaktır. Ek ekran görüntüleri, kod örnekleri ve demolar eklenecektir.
 
 
 <!-- CONTRIBUTING -->
-## Contributing
+## Katkı
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Katkılar, açık kaynak topluluğunu öğrenmek, ilham vermek ve yaratmak için harika bir şeydir. Yaptığınız tüm katkılar için **çok teşekkür ederim**.
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+1. Projeyi forklayın
+2. Feature Branch'ınızı oluşturun (`git checkout -b feature/ AmazingFeature`)
+3. Commit'inizi Kaydedin (`git commit -m 'Add some AmazingFeature'`)
+4. Branch'ı push edin (`git push origin feature/AmazingFeature`)
+5. Bir pull isteği oluşturun
 
 
 
 <!-- LICENSE -->
-## License
+## Lisans
 
-Distributed under the MIT License. See `LICENSE` for more information.
-
+MIT Lisansı altında dağıtılmaktadır. Daha fazla bilgi için "LİSANS" bölümüne bakın
 
 
 <!-- CONTACT -->
-## Contact
+## İletişim
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Your Name - [@your_twitter](https://twitter.com/alisaidsartemur) - email@example.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Proje Linki: [https://github.com/AliSaidSaritemur/PersonalSite](https://github.com/AliSaidSaritemur/PersonalSite)
 
 
 
 <!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Img Shields](https://shields.io)
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Pages](https://pages.github.com)
+## Teşekkür
 * [Animate.css](https://daneden.github.io/animate.css)
 * [Loaders.css](https://connoratherton.com/loaders)
 * [Slick Carousel](https://kenwheeler.github.io/slick)
-* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* [Sticky Kit](http://leafo.net/sticky-kit)
-* [JVectorMap](http://jvectormap.com)
 * [Font Awesome](https://fontawesome.com)
 
 
@@ -200,15 +206,16 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+[contributors-url]: https://github.com/AliSaidSaritemur/PersonalSite/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
+[forks-url]: https://github.com/AliSaidSaritemur/PersonalSite/network/members
 [stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[stars-url]: https://github.com/AliSaidSaritemur/PersonalSite/stargazers
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
+[issues-url]: https://github.com/AliSaidSaritemur/PersonalSite/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
+[linkedin-url]: https://linkedin.com/in/
+[product-screenshot]: images/Download.png
+

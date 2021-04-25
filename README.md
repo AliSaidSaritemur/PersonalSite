@@ -46,7 +46,7 @@
   <summary>İÇİNDEKİLER</summary>
   <ol>
     <li>
-      <a href="#about-the-project">Proje Hakkında</a>
+      <a href="#proje-hakkında">Proje Hakkında</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>

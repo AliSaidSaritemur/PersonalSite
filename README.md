@@ -51,19 +51,19 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li><a href="#kullanım">İçerdikleri</a></li>
+    <li><a href="#i̇çerdikleri">İçerdikleri</a></li>
     <li>
-      <a href="#getting-started">Başlarken</a>
+      <a href="#başlarken">Başlarken</a>
       <ul>
-        <li><a href="#prerequisites">Koşullar</a></li>
-        <li><a href="#installation">Kurulum</a></li>
+        <li><a href="#koşullar">Koşullar</a></li>
+        <li><a href="#kurulum">Kurulum</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Kullanım</a></li>
-    <li><a href="#contributing">Katkı</a></li>
-    <li><a href="#license">Lisans</a></li>
-    <li><a href="#contact">İletişim</a></li>
-    <li><a href="#acknowledgements">Teşekkür</a></li>
+    <li><a href="#kullanım">Kullanım</a></li>
+    <li><a href="#katkı">Katkı</a></li>
+    <li><a href="#lisans">Lisans</a></li>
+    <li><a href="#i̇letişim">İletişim</a></li>
+    <li><a href="#teşekkür">Teşekkür</a></li>
   </ol>
 </details>
 

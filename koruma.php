@@ -2,23 +2,26 @@
 $username = $_POST['username'];
 $password = $_POST['pwd'];
 $bildiri = "Lütfen bİlgilerinizi Doğru giriniz";
+$emoji="😀";
 if (isset($_POST['submit'])) {
 
   if (!empty($username) && !empty($password)) {
 
-    if ($username == 'ali.saritemur@ogr.sakarya.edu.tr' && $password == 'G201210044') {
+    if ($username == 'G201210044@ogr.sakarya.edu.tr' && $password == 'G201210044') {
       $bildiri="Hoşgeldiniz";
-     
+      $emoji="😀";
     } else {
       $bildiri="Lütfen Boşlukları doldurunuz \n
       (10 saniye içinde giriş sayfasına yönlendiriliceksiniz)";
-      header("refresh:10;Giris.php");
+      header("refresh:10;Giris.html");
+      $emoji="😟";
     }
   } else {
-
+     
     $bildiri="Lütfen Boşlukları doldurunuz\n
     (10 saniye içinde giriş sayfasına yönlendiriliceksiniz)";
-    header("refresh:10;Giris.php");
+    header("refresh:10;Giris.html");
+    $emoji="😟";
 }
  }
 ?>
@@ -44,11 +47,11 @@ if (isset($_POST['submit'])) {
 <div id="DivContent"></div>
 
 <body class="bg-info text-center" >
-  <h1>😟</h1>
+  <h1><?=$emoji ?></h1>
   <br>
   <h1></h1>
 <hr>
- <h1 > <?=$bildiri?> </h1> 
+ <h1 class="text-danger"> <?=$bildiri?> </h1> 
  <hr>
  </body>
  <html >
